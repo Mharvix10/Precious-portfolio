@@ -6,7 +6,7 @@ function Navbar({navigateHome, navigateAbout, navigateService, navigateContact})
   const [open, setOpen] = useState(false)
   return (
     <>
-      <div className='navbar z-10 px-4 flex w-full h-[70px] bg-black text-white justify-between items-center fixed top-0'>
+      <div className='navbar z-10 px-[30px] flex w-full h-[70px] bg-black text-white justify-between items-center fixed top-0'>
           <div>Portfolio.</div>
           <div className='hidden md:block'>
               <ul className='flex gap-[50px]'>
