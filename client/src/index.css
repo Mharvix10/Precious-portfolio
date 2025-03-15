@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@layer base{
+  .profile{
+    float: right;
+  }
+  .card{
+    @apply w-[350px] min-w-[200px] h-[400px] flex flex-col justify-between bg-white/10 backdrop-blur-md rounded-lg p-2 border-2 border-slate-700 hover:border-blue-300;
+    text-align: center;
+}
+.project1{
+  background-image: url('./assets/project1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.project2{
+  background-image: url('./assets/project1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.project3{
+  background-image: url('./assets/project3.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.project4{
+  background-image: url('./assets/project4.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.project5{
+  background-image: url('./assets/project5.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+}
