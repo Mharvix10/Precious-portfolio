@@ -17,6 +17,7 @@ function Homepage() {
     const aboutRef = useRef()
     const serviceRef = useRef()
     const contactRef = useRef()
+    const projectRef = useRef()
     const [full, showFull] = useState(false)
 
       const navigateHome=()=>{
@@ -40,6 +41,12 @@ function Homepage() {
       const navigateContact=()=>{
         if(contactRef.current){
           contactRef.current.scrollIntoView({behavior:'smooth'})
+        }
+      }
+
+      const navigateProject=()=>{
+        if(projectRef.current){
+          projectRef.current.scrollIntoView({behavior:'smooth'})
         }
       }
 
@@ -98,7 +105,7 @@ function Homepage() {
       }
   return (
     <>
-        <Navbar navigateHome={navigateHome} navigateAbout={navigateAbout} navigateContact={navigateContact} navigateService={navigateService}/>
+        <Navbar navigateHome={navigateHome} navigateAbout={navigateAbout} navigateContact={navigateContact} navigateService={navigateService} navigateProject={navigateProject}/>
 
         {/* landing page */}
         <div ref={homeRef} className="landingPage bg-blue-950 pt-12 mx-auto my-50px min-h-[50vh]">
@@ -206,7 +213,7 @@ function Homepage() {
 
 
         {/* latest project */}
-        <div className='project  bg-black text-white px-[30px] md:px-[100px] py-8'>
+        <div ref={projectRef} className='project  bg-black text-white px-[30px] md:px-[100px] py-8'>
           <header>
             <h2 className='text-3xl text-center py-4 mb-4'>Latest Projects</h2>
           </header>

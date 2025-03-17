@@ -2,7 +2,7 @@ import {useState, useRef} from 'react'
 import { MdCancel } from "react-icons/md";
 import { FaBars } from "react-icons/fa6";
 
-function Navbar({navigateHome, navigateAbout, navigateService, navigateContact}) {
+function Navbar({navigateHome, navigateAbout, navigateService, navigateContact, navigateProject}) {
   const [open, setOpen] = useState(false)
   return (
     <>
@@ -12,6 +12,7 @@ function Navbar({navigateHome, navigateAbout, navigateService, navigateContact})
               <ul className='flex gap-[50px]'>
                   <li onClick={navigateHome} className='hover:text-blue-400 hover:cursor-pointer'>Home</li>
                   <li onClick={navigateAbout} className='hover:text-blue-400 hover:cursor-pointer'>About</li>
+                  <li onClick={navigateContact} className='hover:text-blue-400 hover:cursor-pointer'>Project</li>
                   <li onClick={navigateService} className='hover:text-blue-400 hover:cursor-pointer'>Services</li>
                   <li onClick={navigateContact} className='hover:text-blue-400 hover:cursor-pointer'>Contact</li>
               </ul>
