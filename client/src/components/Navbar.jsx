@@ -44,9 +44,14 @@ function Navbar({navigateHome, navigateAbout, navigateService, navigateContact, 
                 setOpen(false)
               }}>Services</li>
               <li onClick={()=>{
+                navigateProject();
+                setOpen(false)
+              }}>Project</li>
+              <li onClick={()=>{
                 navigateContact();
                 setOpen(false)
               }}>Contact</li>
+
             </ul>
             <MdCancel size={50} color='red' className='mx-auto mt-[150px]' onClick={()=>{setOpen((prev)=> !prev)}}/>
         </div>
