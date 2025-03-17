@@ -1,11 +1,9 @@
 import {useRef, useEffect, useState} from 'react'
 import Navbar from '../components/Navbar'
 import ProfileImage from '../assets/presh.jpg'
-import GoogleSearch from '../assets/googlesearch.jpg'
-import Google from '../assets/google.png'
 import { FaFacebook } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
-import { FaF, FaXTwitter, FaLinkedin, FaArrowDown } from "react-icons/fa6";
+import { FaXTwitter, FaLinkedin, FaArrowDown } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import Googletools from '../assets/googletools.png'
 import Microsofttools from '../assets/microsofttools.png'
@@ -77,6 +75,27 @@ function Homepage() {
       const project4=()=>{
         window.open('https://docs.google.com/spreadsheets/d/1KyNEsZmG9N9iAzlVW2O-hPmz-K-oRK5mqmmyAHmZ0Hg/edit?usp=sharing', '_blank', 'noopener,noreferrer')
       }
+
+      const project5=()=>{
+        window.open('https://docs.google.com/spreadsheets/d/1KyNEsZmG9N9iAzlVW2O-hPmz-K-oRK5mqmmyAHmZ0Hg/edit?usp=sharing', '_blank', 'noopener,noreferrer')
+      }
+
+      const project6=()=>{
+        window.open('https://docs.google.com/document/d/1lc6_KYkt0cvlDZsIXZIhKiR7iyz17vU_nENsSsb-5vU/edit?usp=sharing', '_blank', 'noopener,noreferrer')
+      }
+
+      const project7=()=>{
+        window.open('https://docs.google.com/presentation/d/1jgibk-dxrWxaUZ8fBwmqhsxt8ZJol36JeIo-DDxrDEM/edit?usp=sharing', '_blank', 'noopener,noreferrer')
+      }
+
+      const project8=()=>{
+        window.open('https://docs.google.com/document/d/1d-zUn5iGy6gVhhUX2sCiw3Zd7PRrr-y57NBpE4gB840/edit?usp=sharing', '_blank', 'noopener,noreferrer')
+      }
+
+      const downloadCV=()=>{
+        window.open('https://docs.google.com/document/d/1L4-GQxjHfzezIRJucPEF_mZKRw9-kYhpeZPXaVfh-F4/edit?usp=sharing', '_blank', 'noopener,noreferrer')
+
+      }
   return (
     <>
         <Navbar navigateHome={navigateHome} navigateAbout={navigateAbout} navigateContact={navigateContact} navigateService={navigateService}/>
@@ -91,7 +110,7 @@ function Homepage() {
                   and I am a <span className='text-blue-300'>Virtual Assistant.</span> <br />
                 </div>
 
-                <button className='bg-green-600 w-6/12 md:w-12/12 h-10 rounded-md mt-10 md:mt-40 hover:bg-green-700 transition'>Download my CV</button>
+                <button className='bg-green-600 w-6/12 md:w-12/12 h-10 rounded-md mt-10 md:mt-40 hover:bg-green-700 transition' onClick={downloadCV}>Download my CV</button>
                 
                 <span className='text-lg mt-10 block'>
                     <span className='text-sky-100'>Simplifying</span> Tasks,
@@ -130,10 +149,17 @@ function Homepage() {
                 Virtual <span className='text-blue-200'>Assistant</span>
               </h3>
               <p className='text-lg mt-4'>
-                Hello, I am Akinola Precious. I am a virtual assistant and I am very 
-                passionate and dedicated to my work. With 3 years experience as a
-                virtual assistant, I have acquired the necessary skills and knowledge
-                required for me to make your project a succeses.
+                Hello, I am Akinola Precious. As an administrative virtual
+                assistant, I don’t just handle tasks, 
+                I design streamlined systems that <br />
+                keep businesses agile and
+                efficient. I ensure every detail <br />
+                aligns with your broader vision.
+              </p>
+
+              <p className='text-lg mt-4'>
+              With me, businesses don’t just
+              function, they excel and grow.
               </p>
 
               <section className='grid grid-cols-3 w-9/12 text-lg mt-8 gap-2'>
@@ -183,8 +209,8 @@ function Homepage() {
 
 
 
-          <div className='flex flex-wrap justify-around gap-8'>
-            <div onClick={project1} className="h-[200px] md:h-[250px] w-[500px] hover:cursor-pointer hover:opacity-60 border-blue-200 hover:border-2 ">
+          <div className='grid grid-cols-2 md:grid-cols-4 justify-around gap-8'>
+            <div onClick={project1} className="h-[200px] md:h-[200px] w-[100%] hover:cursor-pointer hover:opacity-60 border-blue-200 hover:border-2 ">
               <main className='project1'>
               <h2 className='text-white bg-blue-950 text-2xl text-center'>Meeting Minutes</h2>
               </main>
@@ -192,22 +218,50 @@ function Homepage() {
             </div>
 
 
-            <div onClick={project2} className="h-[200px] md:h-[250px] w-[500px] hover:cursor-pointer hover:opacity-60 border-blue-200 hover:border-2">
+            <div onClick={project2} className="h-[200px] md:h-[200px] w-[100%] hover:cursor-pointer hover:opacity-60 border-blue-200 hover:border-2">
               <main className='project2'>
               <h2 className='text-white bg-blue-950 text-2xl text-center'>Meeting Agenda</h2>
               </main>
             </div>
 
-            <div onClick={project3} className="h-[200px] md:h-[250px] w-[500px] hover:cursor-pointer hover:opacity-60 border-blue-200 hover:border-2">
+            <div onClick={project3} className="h-[200px] md:h-[200px] w-[100%] hover:cursor-pointer hover:opacity-60 border-blue-200 hover:border-2">
               <main className='project3'>
               <h2 className='text-white bg-blue-950 text-2xl text-center'>Research 1</h2>
               </main>
 
             </div>
 
-            <div onClick={project4} className="h-[200px] md:h-[250px] w-[500px] hover:cursor-pointer hover:opacity-60 border-blue-200 hover:border-2">
+            <div onClick={project4} className="h-[200px] md:h-[200px] w-[100%] hover:cursor-pointer hover:opacity-60 border-blue-200 hover:border-2">
               <main className='project4'>
               <h2 className='text-white bg-blue-950 text-2xl text-center'>Research 2</h2>
+              </main>
+
+            </div>
+
+            <div onClick={project5} className="h-[200px] md:h-[200px] w-[100%] hover:cursor-pointer hover:opacity-60 border-blue-200 hover:border-2">
+              <main className='project5'>
+              <h2 className='text-white bg-blue-950 text-2xl text-center'>Data Analysis</h2>
+              </main>
+
+            </div>
+
+            <div onClick={project6} className="h-[200px] md:h-[200px] w-[100%] hover:cursor-pointer hover:opacity-60 border-blue-200 hover:border-2">
+              <main className='project6'>
+              <h2 className='text-white bg-blue-950 text-2xl text-center'>Data Cleaning</h2>
+              </main>
+
+            </div>
+
+            <div onClick={project7} className="h-[200px] md:h-[200px] w-[100%] hover:cursor-pointer hover:opacity-60 border-blue-200 hover:border-2">
+              <main className='project7'>
+              <h2 className='text-white bg-blue-950 text-2xl text-center'>Travel management</h2>
+              </main>
+
+            </div>
+
+            <div onClick={project8} className="h-[200px] md:h-[200px] w-[100%] hover:cursor-pointer hover:opacity-60 border-blue-200 hover:border-2">
+              <main className='project8'>
+              <h2 className='text-white bg-blue-950 text-2xl text-center'>Email management</h2>
               </main>
 
             </div>
@@ -325,14 +379,12 @@ function Homepage() {
                     <section className="flex flex-col w-full px-[50px] md:px-[100px]">
                       <section className="w-full">
                         <p className='text-md mb-10'>
-                          Please fill out the form in this section to contact me or call between 9AM
-                          and 8PM, WAT, MONDAY THROUGH FRIDAY.
+                          Please feel free to contact me or call between 9AM
+                          and 7PM, WAT, MONDAY THROUGH FRIDAY.
                         </p>
         
                         <p className='text-md'>
-                          We offer high quality services at an affordable price and we offer discount price
-                          to start-up company and mid-scale business to help them meet their needs and take 
-                          away the barrier of financial setback.
+                        I,d love to hear about your needs and how i can help, Feel free to reach out to me directly
                         </p>
         
                         <section className="mt-10">
