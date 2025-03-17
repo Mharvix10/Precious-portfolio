@@ -149,17 +149,25 @@ function Homepage() {
                 Virtual <span className='text-blue-200'>Assistant</span>
               </h3>
               <p className='text-lg mt-4'>
-                Hello, I am Akinola Precious. As an administrative virtual
-                assistant, I don’t just handle tasks, 
-                I design streamlined systems that <br />
-                keep businesses agile and
-                efficient. I ensure every detail <br />
-                aligns with your broader vision.
+              Hello! I’m Precious Akinola, an enthusiastic and detail-oriented Virtual Assistant dedicated to helping 
+              businesses and professionals stay organized and productive. With a strong background in time and task management, 
+              organizational support, and problem-solving, I specialize in streamlining operations to boost efficiency.
               </p>
 
               <p className='text-lg mt-4'>
-              With me, businesses don’t just
-              function, they excel and grow.
+              I have experience handling administrative tasks, email and calendar management, data entry, 
+              and research. My goal is to provide top-notch virtual assistance, ensuring that my clients can focus 
+              on what truly matters—growing their businesses.
+              </p>
+
+              <p className='text-lg mt-4'>
+              I thrive in dynamic remote teams and enjoy working with businesses of all sizes to improve workflow and 
+              organization. I am committed to delivering reliable and efficient support to help you stay on 
+              top of your daily operations.
+              </p>
+
+              <p className='text-lg mt-4'>
+              Let’s work together to make your business run smoother! Contact me today to discuss how I can support you.
               </p>
 
               <section className='grid grid-cols-3 w-9/12 text-lg mt-8 gap-2'>
@@ -390,6 +398,7 @@ function Homepage() {
                         <section className="mt-10">
                           <span>Email:</span> <span>preciousrah321@gmail.com</span> <br />
                           <span>Phone:</span> <span>+234 806 735 5589</span> <br />
+                          <span className='underline text-2xl text-red-500' onClick={openWhatsapp}>Contact me</span>
                         </section>
                       </section>
       
