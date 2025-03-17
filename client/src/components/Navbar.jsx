@@ -10,10 +10,10 @@ function Navbar({navigateHome, navigateAbout, navigateService, navigateContact})
           <div>Portfolio.</div>
           <div className='hidden md:block'>
               <ul className='flex gap-[50px]'>
-                  <li onClick={navigateHome} className='hover:text-yellow-400 hover:cursor-pointer'>Home</li>
-                  <li onClick={navigateAbout} className='hover:text-yellow-400 hover:cursor-pointer'>About</li>
-                  <li onClick={navigateService} className='hover:text-yellow-400 hover:cursor-pointer'>Services</li>
-                  <li onClick={navigateContact} className='hover:text-yellow-400 hover:cursor-pointer'>Contact</li>
+                  <li onClick={navigateHome} className='hover:text-blue-400 hover:cursor-pointer'>Home</li>
+                  <li onClick={navigateAbout} className='hover:text-blue-400 hover:cursor-pointer'>About</li>
+                  <li onClick={navigateService} className='hover:text-blue-400 hover:cursor-pointer'>Services</li>
+                  <li onClick={navigateContact} className='hover:text-blue-400 hover:cursor-pointer'>Contact</li>
               </ul>
           </div>
 

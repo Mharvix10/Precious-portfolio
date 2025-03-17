@@ -161,18 +161,14 @@ function Homepage() {
               </p>
 
               <p className='text-lg mt-4'>
-              I thrive in dynamic remote teams and enjoy working with businesses of all sizes to improve workflow and 
-              organization. I am committed to delivering reliable and efficient support to help you stay on 
+              I am committed to delivering reliable and efficient support to help you stay on 
               top of your daily operations.
-              </p>
-
-              <p className='text-lg mt-4'>
               Let’s work together to make your business run smoother! Contact me today to discuss how I can support you.
               </p>
 
               <section className='grid grid-cols-3 w-9/12 text-lg mt-8 gap-2'>
                 <section>Phone</section> <section>: </section> <section>+234-806-735-5589</section>
-                <section>Email</section> <section>: </section> <section>preciousrah321@gmail.com</section>
+                <section>Email</section> <section>: </section> <section className='text-sm'>preciousrah321@gmail.com</section>
                 <section>Language</section> <section>: </section> <section>English</section>
                 <section>Freelance</section> <section>: </section> <section>Available</section>
                 <section>Job-Type</section> <section>: </section> <section>Remote</section>
@@ -218,7 +214,7 @@ function Homepage() {
 
 
           <div className='grid grid-cols-2 md:grid-cols-4 justify-around gap-8'>
-            <div onClick={project1} className="h-[200px] md:h-[200px] w-[100%] hover:cursor-pointer hover:opacity-60 border-blue-200 hover:border-2 ">
+            <div onClick={project1} className="h-[200px] md:h-[200px] w-[100%] hover:cursor-pointer hover:opacity-60 border-blue-200 border-2 ">
               <main className='project1'>
               <h2 className='text-white bg-blue-950 text-2xl text-center'>Meeting Minutes</h2>
               </main>
@@ -226,48 +222,48 @@ function Homepage() {
             </div>
 
 
-            <div onClick={project2} className="h-[200px] md:h-[200px] w-[100%] hover:cursor-pointer hover:opacity-60 border-blue-200 hover:border-2">
+            <div onClick={project2} className="h-[200px] md:h-[200px] w-[100%] hover:cursor-pointer hover:opacity-60 border-blue-200 border-2">
               <main className='project2'>
               <h2 className='text-white bg-blue-950 text-2xl text-center'>Meeting Agenda</h2>
               </main>
             </div>
 
-            <div onClick={project3} className="h-[200px] md:h-[200px] w-[100%] hover:cursor-pointer hover:opacity-60 border-blue-200 hover:border-2">
+            <div onClick={project3} className="h-[200px] md:h-[200px] w-[100%] hover:cursor-pointer hover:opacity-60 border-blue-200 border-2">
               <main className='project3'>
               <h2 className='text-white bg-blue-950 text-2xl text-center'>Research 1</h2>
               </main>
 
             </div>
 
-            <div onClick={project4} className="h-[200px] md:h-[200px] w-[100%] hover:cursor-pointer hover:opacity-60 border-blue-200 hover:border-2">
+            <div onClick={project4} className="h-[200px] md:h-[200px] w-[100%] hover:cursor-pointer hover:opacity-60 border-blue-200 border-2">
               <main className='project4'>
               <h2 className='text-white bg-blue-950 text-2xl text-center'>Research 2</h2>
               </main>
 
             </div>
 
-            <div onClick={project5} className="h-[200px] md:h-[200px] w-[100%] hover:cursor-pointer hover:opacity-60 border-blue-200 hover:border-2">
+            <div onClick={project5} className="h-[200px] md:h-[200px] w-[100%] hover:cursor-pointer hover:opacity-60 border-blue-200 border-2">
               <main className='project5'>
               <h2 className='text-white bg-blue-950 text-2xl text-center'>Data Analysis</h2>
               </main>
 
             </div>
 
-            <div onClick={project6} className="h-[200px] md:h-[200px] w-[100%] hover:cursor-pointer hover:opacity-60 border-blue-200 hover:border-2">
+            <div onClick={project6} className="h-[200px] md:h-[200px] w-[100%] hover:cursor-pointer hover:opacity-60 border-blue-200 border-2">
               <main className='project6'>
               <h2 className='text-white bg-blue-950 text-2xl text-center'>Data Cleaning</h2>
               </main>
 
             </div>
 
-            <div onClick={project7} className="h-[200px] md:h-[200px] w-[100%] hover:cursor-pointer hover:opacity-60 border-blue-200 hover:border-2">
+            <div onClick={project7} className="h-[200px] md:h-[200px] w-[100%] hover:cursor-pointer hover:opacity-60 border-blue-200 border-2">
               <main className='project7'>
               <h2 className='text-white bg-blue-950 text-2xl text-center'>Travel management</h2>
               </main>
 
             </div>
 
-            <div onClick={project8} className="h-[200px] md:h-[200px] w-[100%] hover:cursor-pointer hover:opacity-60 border-blue-200 hover:border-2">
+            <div onClick={project8} className="h-[200px] md:h-[200px] w-[100%] hover:cursor-pointer hover:opacity-60 border-blue-200 border-2">
               <main className='project8'>
               <h2 className='text-white bg-blue-950 text-2xl text-center'>Email management</h2>
               </main>
@@ -323,21 +319,21 @@ function Homepage() {
 
               <section>
               <h2 className='text-center text-2xl mb-4'>Grammarly</h2>
-                <ol className='list-decimal'>
+                <ol className='list-none'>
                   <li>Grammar & Spell Checking – Ensuring error-free, professional, and polished writing for emails, reports, and content creation.</li>
                 </ol>
               </section>
 
               <section>
               <h2 className='text-center text-2xl mb-4'>iLovePDF</h2>
-                <ol className='list-decimal'>
+                <ol className='list-none'>
                   <li>PDF Conversion & Editing – Converting PDFs to Word/Excel, compressing, merging, and splitting PDF files for seamless document management.</li>
                 </ol>
               </section>
 
               <section>
               <h2 className='text-center text-2xl mb-4'>Online OCR</h2>
-                <ol className='list-decimal'>
+                <ol className='list-none'>
                   <li>Text Extraction – Converting scanned documents and images into editable text for easy data processing and documentation.</li>
                 </ol>
               </section>
@@ -345,7 +341,7 @@ function Homepage() {
 
               <section>
               <h2 className='text-center text-2xl mb-4'>Adobe Firefly</h2>
-                <ol className='list-decimal'>
+                <ol className='list-none'>
                   <li>AI-Powered Content Creation – Enhancing visuals, generating creative designs, and editing images for presentations and marketing materials</li>
                 </ol>
               </section>
@@ -388,11 +384,11 @@ function Homepage() {
                       <section className="w-full">
                         <p className='text-md mb-10'>
                           Please feel free to contact me or call between 9AM
-                          and 7PM, WAT, MONDAY THROUGH FRIDAY.
+                          and 7PM WAT, MONDAY THROUGH FRIDAY.
                         </p>
         
                         <p className='text-md'>
-                        I,d love to hear about your needs and how i can help, Feel free to reach out to me directly
+                        I would love to hear about your needs and how i can help, Feel free to reach out to me directly
                         </p>
         
                         <section className="mt-10">

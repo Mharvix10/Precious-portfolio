@@ -1,6 +1,9 @@
 @import "tailwindcss";
 
 @layer base{
+  #root{
+    overflow-x: hidden;
+  }
   .profile{
     float: right;
   }
